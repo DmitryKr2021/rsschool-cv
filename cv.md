@@ -1,20 +1,24 @@
 ## **Dmitry Krylsky**
 ![foto](https://avatars.githubusercontent.com/u/79040401?s=400&u=cd5389a2187a9cccc3fa7c5f7ca46db837a08c1a&v=4)
 ### Contacts for communication
-<a href="mailto:krdvmail@mail.ru">![Send a message](https://github.com/DmitryKr2021/rsschool-cv/blob/gh-pages/mail.png)</a>
-<a href="https://vk.com/id446183970">![Send a message](https://github.com/DmitryKr2021/rsschool-cv/blob/gh-pages/VK.png)</a>
-<a href="tel:+7(985)2481418">![Call me](https://github.com/DmitryKr2021/rsschool-cv/blob/gh-pages/phone.png)</a>
-<a href="tel:+7(985)2481418">+7&nbsp;(985)&nbsp;248-14-18</a>
-## Brief information about myself 
+
+* **Phone:** +7 985 248-14-18
+* **Email:** krdvmail@mail.ru
+* **VK:** id446183970
+* **GitHub:** DmitryKr2021 
+## Briefly About Myself 
 My objective is to become a *demanded specialist in the front-end*. I set myself the task of mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks, etc.) that allow to create modern effective sites, develop user interfaces, and in the future – to solve more complex and interesting tasks in the field of web development.
 
 My work experience is 2 years, starting with self-study from level zero. During this time, I have mastered HTML and CSS in a volume sufficient for the layout of sites of medium complexity, as well as JS for solving simple tasks related to working with the DOM tree, servicing online stores, and animation.
 My strengths include a *high level of motivation, interest in mastering new technologies, and fast learning ability.*
-## Skills:
-* HTML and CSS, middle level;
-* JS, junior level;
-* BEM, Git, middle level;
-* Bootstrap,  Gulp, SASS – initial level.
+## Skills and Proficiency:
+* HTML5, CSS3
+* JavaScript Basics
+* BEM
+* Git, GitHub
+* VS Code
+* Adobe Photoshop, Figma
+* Bootstrap, Gulp, SASS – initial level.
 ## Code examples 
 ```
 document.addEventListener('DOMContentLoaded', function () {
@@ -66,7 +70,14 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 ## Work experience.
 
-My experience is in the layout of adaptive sites based on PSD and Fig templates, adding functionality to them via JS, for examples - [GreenMile](https://github.com/DmitryKr2021/GreenMile); [Pizza](https://github.com/DmitryKr2021/Pizza) 
+My experience is in the layout of adaptive sites based on PSD and Fig templates, adding functionality to them via JS.
+
+### My projects
+
+* **Pizza**. Description is [here](https://github.com/DmitryKr2021/Pizza). Direct link is [here](https://DmitryKr2021.github.io/Pizza/index.html)
+* **Property**. Description is [here](https://github.com/DmitryKr2021/Property). Direct link is [here](https://DmitryKr2021.github.io/Property/index.html)
+* **JS-clock**. Description is [here](https://github.com/DmitryKr2021/JS-Clock/tree/main). Direct link is [here](https://DmitryKr2021.github.io/JS-Clock/index.html)
+* **Castom-video-player**. Description is [here](https://github.com/DmitryKr2021/Castom-video-player/tree/main). Direct link is [here](https://DmitryKr2021.github.io/Castom-video-player/index.html)
 
 In addition, one site - [Otdih na Volge](http://otdih-na-volge.ru/) - I created it entirely from zero.
 
@@ -74,8 +85,11 @@ In addition, one site - [Otdih na Volge](http://otdih-na-volge.ru/) - I created 
 ## Education 
 ### Higher education. 
 * Voronezh State University, chemical department.
+
 ### Education in frontend. 
-* Initially, there were courses HTML, CSS, JS by [Mikhail Rusakov](https://srs.myrusakov.ru/list), but mainly self-education, searching for information from various sources, analyzing master classes, copying other people's sites, etc.
+*  HTML, CSS and JS courses from [Mikhail Rusakov](https://srs.myrusakov.ru/list).
+* Self-education, searching for information from various sources, analyzing master classes, copying other people's sites, etc.
+* RSschool 2021Q3 «JavaScript/Front-end. Stage#0»
 
 ## English
 intermediate
