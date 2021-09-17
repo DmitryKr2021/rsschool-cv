@@ -1,12 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="header__container">
+      <div class="header__container_left">
+        <span class="header__cv left">curriculum vitae</span>
+      </div>
+      <div class="header__container_right">
+        <span class="header__cv right">curriculum vitae</span>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="personal">
+      <div class="personal__name">
+        <h1>Dmitry<br><span class="personal__name_third">Krilsky</span></h1>
+      </div>
+      <figure class="personal__foto">
+        <img src="img/ItsMe.jpg" alt="It's Me" width="250">
+        <figcaption class="figcaption">Front-end developer <span>(Beginner)</span></figcaption>
+      </figure>
+      <section class="personal__contacts">
+        <h2 class="center">Contacts</h2>
+        <ul class="personal__contacts_list">
+          <li class="personal__contacts_item">
+            <a class="link" href="tel:+7(985)2481418">
+              <div class="link__ico">
+                <img src="img/phone.png" alt="#">
+              </div>
+              <div class="link__text">+7 985 248-14-18</div>
+            </a>
+          </li>
+          <li class="personal__contacts_item">
+            <a class="link" href="mailto:krdvmail@mail.ru" target="_blank">
+              <div class="link__ico">
+                <img src="img/mail.png" alt="#">
+              </div>
+              <div class="link__text">krdvmail@mail.ru</div>
+            </a>
+          </li>
+          <li class="personal__contacts_item">
+            <a class="link" href="https://vk.com/id446183970" target="_blank">
+              <div class="link__ico">
+                <img src="img/VK.png" alt="#">
+              </div>
+              <div class="link__text">id446183970</div>
+            </a>
+          </li>
+          <li class="personal__contacts_item">
+            <a class="link" href="https://github.com/DmitryKr2021" target="_blank">
+              <div class="link__ico">
+                <img src="img/git.png" alt="#">
+              </div>
+              <div class="link__text">DmitryKr2021</div>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="personal__info">
+        <div class="personal__info_title">
+          <h2 class="center">Brief about myself</h2>
+        </div>
+        <div class="personal__info_text">
+        <span>My objective</span> is to become a <i>demanded specialist in the front-end</i>. I set myself the task of mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks, etc.) that allow to
+        create modern effective sites, develop user interfaces, and in the future – to solve more complex and
+        interesting tasks in the field of web development.
+        </div>
+        <div class="personal__info_text">
+          <span>My strengths</span> include a <em>high level of motivation, interest in mastering new technologies, and fast learning
+            ability.</em>
+          </div>
+      </section>
+    </div>
+    <!--/Personal-->
+    <article class="skills">
+      <div class="skills__wrap">
+      <div class="skills__title">
+        <h2 class="underline">Skills and Proficiency</h2>
+      </div>
+
+      <ul class="skills__items"> 
+        <li class="skills__item">HTML5, CSS3</li>
+        <li class="skills__item">JavaScript Basics</li>
+        <li class="skills__item">BEM</li>
+        <li class="skills__item">Git, GitHub</li>
+        <li class="skills__item">VS Code</li>
+        <li class="skills__item">Adobe Photoshop, Figma</li>
+        <li class="skills__item">Bootstrap, Gulp, SASS</li>
+      </ul>
+
+      <div class="skills__switch">
+        <div class="skills__switch_body">
+          <p>now</p>
+          <label class="checkbox">
+            <input class="skills__input" type="checkbox">
+            <span></span>
+          </label>
+          <p>after 1 year (my objective!)</p>
+        </div>
+      </div>
+      <div class="skills__languages">
+        <div class="skills__HTML skills__all">
+          <div class="skills__ico _HTML">
+            <img src="img/HTML.png" alt="HTML">
+          </div>
+          <div class="skills__rate _HTML"></div>
+          <div class="skills__text _HTML">
+            <div class="skills__levels">
+              <p class="levels_up">middle</p>
+              <p class="levels_up">senior</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills__CSS skills__all">
+          <div class="skills__ico _CSS">
+            <img src="img/CSS.png" alt="css">
+          </div>
+          <div class="skills__rate _CSS"></div>
+          <div class="skills__text _CSS">
+            <div class="skills__levels">
+              <p class="levels_up">middle</p>
+              <p class="levels_up">senior</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills__JS skills__all">
+          <div class="skills__ico _JS">
+            <img src="img/JS.png" alt="JS">
+          </div>
+          <div class="skills__rate _JS"></div>
+          <div class="skills__text _JS">
+            <div class="skills__levels">
+              <p class="levels_up">june</p>
+              <p class="levels_up">middle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="experience">
+        <div class="experience__title">
+          <h2 class="underline">Work experience</h2>
+        </div>
+        <div class="experience__text text">
+        My work experience is two years, starting with self-study from level zero. During this time, I have mastered
+        HTML and CSS in a volume sufficient for the layout of sites of medium complexity, as well as JS for adding
+        functionality and solving simple tasks related to working with the DOM tree, servicing online stores, and
+        animation.
+        My experience is in the layout of adaptive sites based on PSD and Figma templates. 
+        </div>
+      </section>
+      <section class="code_example">
+        <h2 class="underline">Code example</h2>
+        <h3 class="example">From "Pizza" project</h3>
+        <div class="my_code">
+          <pre>      
+          document.addEventListener('DOMContentLoaded', 
+          function () {
+            
+            //Показ меню
+            const sendv = document.querySelector('.sendvich');
+            const nav_ = document.querySelector('.header__nav');
+            sendv.onclick = function () {
+               nav_.classList.toggle('header__none');
+               nav_.classList.toggle('header__nav_media');
+            };
+            //Скрытие меню при нажатии
+            const items = document.querySelectorAll('.header__item');
+            const menuBtn = document.querySelector('.menu-btn');
+            for (let item of items) {
+               item.onclick = function () {
+                  nav_.classList.toggle('header__none');
+                  nav_.classList.toggle('header__nav_media');
+                  menuBtn.checked = false;
+               };
+            }
+            //Работа с карточками пиццы
+            function pizzaNew(name, nameRus, size, price) {
+               this.name = name;
+               this.nameRus = nameRus;
+               this.size = size;
+               this.price = price;
+            }
+          </pre>
+        </div>
+      </section>
+      <section class="projects">
+        <h2 class="underline">My projects</h2>
+        <ul class="myprojects">
+          <li><span class="project_name">Pizza.</span> Description is <a 
+            href="https://github.com/DmitryKr2021/Pizza" target="_blank">here</a>. Direct link is <a 
+            href="https://dmitrykr2021.github.io/Pizza/index.html" target="_blank" >here</a></li>
+          <li><span class="project_name">Property.</span> Description is <a 
+            href="https://github.com/DmitryKr2021/Property" target="_blank">here</a>. Direct link is <a 
+            href="https://dmitrykr2021.github.io/Property/index.html" target="_blank">here</a></li>
+          <li><span class="project_name">JS-clock. </span>Description is <a 
+            href="https://github.com/DmitryKr2021/JS-Clock/tree/main" target="_blank">here</a>. Direct link is <a 
+            href="https://dmitrykr2021.github.io/JS-Clock/index.html" target="_blank">here</a></li>
+          <li><span class="project_name">Castom-video-player.</span> Description is <a 
+            href="https://github.com/DmitryKr2021/Castom-video-player/tree/main" target="_blank">here</a>. Direct link is <a 
+            href="https://dmitrykr2021.github.io/Castom-video-player/index.html" target="_blank">here</a></li>
+          <li><a class='volga'
+            href="http://otdih-na-volge.ru" target="_blank" >Otdih na Volge</a> - I created it entirely from zero.</li>
+        </ul>
+      </section>
+      <section class="education">
+        <div class="education__title">
+          <h2 class="underline">Education</h2>
+        </div>
+        <h3>Higher education.</h3>
+        <p>Voronezh State University, chemical department.</p> 
+        <h3>Education in frontend.</h3>
+        <ul class="my_education">
+          <li>HTML, CSS and JS courses from <a class="courses" href="https://srs.myrusakov.ru" target="_blank" >Mikhail
+            Rusakov</a>.</li>
+          <li>Self-education, searching for information from various sources, analyzing master classes, copying other people’s sites, etc.</li>
+          <li>RSschool 2021Q3 «JavaScript/Front-end. Stage#0»</li>
+        </ul>
+      </section>
+      <section class="english">
+        <div class="english__title">
+          <h2 class="underline">My English</h2>
+        </div>
+        <div class="english__text text">
+        English Intermediate
+        </div>
+      </section>
+    </div>
+    </article>
+  </main>
+  <!--/container-->
+  <footer class="footer">
+    <div class="footer__wrap">
+    <div class="footer__up">
+      <ul class="footer__contacts_list">
+        <li class="footer__contacts_item">
+          <a class="link" href="tel:+7(985)2481418">
+            <div class="link__ico">
+              <img src="img/phone.png" alt="#">
+            </div>
+          </a>
+        </li>
+        <li class="footer__contacts_item">
+          <a class="link" href="mailto:krdvmail@mail.ru" target="_blank">
+            <div class="link__ico">
+              <img src="img/mail.png " alt="#">
+            </div>
+          </a>
+        </li>
+        <li class="footer__contacts_item">
+          <a class="link" href="https://vk.com/id446183970" target="_blank">
+            <div class="link__ico">
+              <img src="img/VK.png" alt="#">
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--/footer__up-->
+    <div class="footer__down">
+      <ul class="rsschool">
+        <li class="rsschool__github">
+          <a class="link" href="https://github.com/DmitryKr2021/rsschool-cv" target="_blank">
+            <div class="link__ico">
+              <img src="img/git.png" alt="#">
+            </div>
+          </a>
+        </li>
+        <li class="rsschool__year">2021</li>
+        <li>
+          <a class="link" href="https://rs.school/js/" target="_blank">
+            <div class="link__ico rs_logo">
+              <img src="img/rs_school_js.svg" alt="#">
+            </div>
+          </a>
+        </li> 
+      </ul>
+    </div>
+    <!--/footer__down-->
+  </div>
+  <!--/footer__wrap-->
+  </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
