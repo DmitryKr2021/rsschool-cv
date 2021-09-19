@@ -9,31 +9,66 @@
   <title>CV</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="header__container">
-      <div class="header__container_left">
-        <span class="header__cv left">curriculum vitae</span>
+    <nav class="header__nav header__none">
+      <ul class="nav__items">
+        <li class="nav__item"><a class="nav__item-a" href="#to_1">about</a></li>
+        <li class="nav__item"><a class="nav__item-a" href="#to_2">skills</a></li>
+        <li class="nav__item"><a class="nav__item-a" href="#to_3">experience</a></li>
+        <li class="nav__item"><a class="nav__item-a" href="#to_4">portfolio</a></li>
+        <li class="nav__item"><a class="nav__item-a" href="#to_5">education</a></li>
+        <li class="nav__item"><a class="nav__item-a" href="#to_6">contact</a></li>
+      </ul>    
+      <div class="sendvich">
+        <input type="checkbox" class="menu-btn">
+        <div class="menu-btn-burger"></div>
+     </div>
+    </nav>    
+    <div class="hero">
+      <div class="hero__item"><p>Hi! I'm</p>
+        <h1 class="hero__item-h">Dmitry Krilsky</h1> 
       </div>
-      <div class="header__container_right">
-        <span class="header__cv right">curriculum vitae</span>
+      <div class="hero__item">
+        <div class="hero__container">
+          <div class="box">
+            <div class="spin-container">
+              <div class="shape">
+                <div class="bd"><img src="img/myFoto.jpg" alt="#" width="400"></div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__item"><p>and I'm</p> 
+      <h2 class="hero__item-h">front-end developer</h2>
       </div>
     </div>
   </header>
+
   <main class="container">
     <div class="personal">
-      <div class="personal__name">
-        <h1>Dmitry<br><span class="personal__name_third">Krilsky</span></h1>
-      </div>
-      <figure class="personal__foto">
-        <img src="img/ItsMe.jpg" alt="It's Me" width="250">
-        <figcaption class="figcaption">Front-end developer <span>(Beginner)</span></figcaption>
-      </figure>
-      <section class="personal__contacts">
+      <section class="personal__info">
+        <div class="personal__info_title" id="to_1">
+          <h2 class="center">About myself</h2>
+        </div>
+        <div class="personal__info_text">
+        <span>My objective</span> is to become a <i>demanded specialist in the front-end</i>. I set myself the task of mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks, etc.) that allow to
+        create modern effective sites, develop user interfaces, and in the future – to solve more complex and
+        interesting tasks in the field of web development.
+        </div>
+        <div class="personal__info_text">
+          <span>My strengths</span> include a <em>high level of motivation, interest in mastering new technologies, and fast learning
+            ability.</em>
+          </div>
+      </section>
+      <section class="personal__contacts" id="to_6">
         <h2 class="center">Contacts</h2>
         <ul class="personal__contacts_list">
           <li class="personal__contacts_item">
@@ -69,93 +104,49 @@
             </a>
           </li>
         </ul>
-      </section>
-      <section class="personal__info">
-        <div class="personal__info_title">
-          <h2 class="center">Brief about myself</h2>
+        <div class="map">
+          <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1fcf430aee84823ba89d8005e372fd0c91acc7bee37b7be6503c9443b55da0c&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
-        <div class="personal__info_text">
-        <span>My objective</span> is to become a <i>demanded specialist in the front-end</i>. I set myself the task of mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks, etc.) that allow to
-        create modern effective sites, develop user interfaces, and in the future – to solve more complex and
-        interesting tasks in the field of web development.
-        </div>
-        <div class="personal__info_text">
-          <span>My strengths</span> include a <em>high level of motivation, interest in mastering new technologies, and fast learning
-            ability.</em>
-          </div>
       </section>
+      <section class="language">
+        <div class="language__title">
+          <h2 class="underline">Language</h2>
+        </div>
+        <ul class="english__text text">
+        <li><p>Rissian is native</p></li>  
+        <li><p>English Intermediate</p></li>
+        </ul>
+      </section>
+      
     </div>
     <!--/Personal-->
     <article class="skills">
       <div class="skills__wrap">
-      <div class="skills__title">
+      <div class="skills__title" id="to_2">
         <h2 class="underline">Skills and Proficiency</h2>
       </div>
 
       <ul class="skills__items"> 
-        <li class="skills__item">HTML5, CSS3</li>
-        <li class="skills__item">JavaScript Basics</li>
-        <li class="skills__item">BEM</li>
-        <li class="skills__item">Git, GitHub</li>
-        <li class="skills__item">VS Code</li>
-        <li class="skills__item">Adobe Photoshop, Figma</li>
-        <li class="skills__item">Bootstrap, Gulp, SASS</li>
+        <li class="skills__item"><img class="skills__ico" src="img/HTML.png" alt="HTML"></li>   
+        <li class="skills__item"><img class="skills__ico" src="img/CSS.png" alt="CSS"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/JS.png" alt="JS"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/vscode.png" alt="VSCode" width="60"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/gitIco.png" alt="git" width="60"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/Bootstrap.png" alt="boot" width="60"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/ps.jpg" alt="PS" width="60"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/figma.png" alt="Figma" width="60"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/gulp.png" alt="gulp" width="40"></li>
+        <li class="skills__item"><img class="skills__ico" src="img/sass.png" alt="sass" width="60"></li>
       </ul>
 
-      <div class="skills__switch">
-        <div class="skills__switch_body">
-          <p>now</p>
-          <label class="checkbox">
-            <input class="skills__input" type="checkbox">
-            <span></span>
-          </label>
-          <p>after 1 year (my objective!)</p>
-        </div>
       </div>
-      <div class="skills__languages">
-        <div class="skills__HTML skills__all">
-          <div class="skills__ico _HTML">
-            <img src="img/HTML.png" alt="HTML">
-          </div>
-          <div class="skills__rate _HTML"></div>
-          <div class="skills__text _HTML">
-            <div class="skills__levels">
-              <p class="levels_up">middle</p>
-              <p class="levels_up">senior</p>
-            </div>
-          </div>
-        </div>
-        <div class="skills__CSS skills__all">
-          <div class="skills__ico _CSS">
-            <img src="img/CSS.png" alt="css">
-          </div>
-          <div class="skills__rate _CSS"></div>
-          <div class="skills__text _CSS">
-            <div class="skills__levels">
-              <p class="levels_up">middle</p>
-              <p class="levels_up">senior</p>
-            </div>
-          </div>
-        </div>
-        <div class="skills__JS skills__all">
-          <div class="skills__ico _JS">
-            <img src="img/JS.png" alt="JS">
-          </div>
-          <div class="skills__rate _JS"></div>
-          <div class="skills__text _JS">
-            <div class="skills__levels">
-              <p class="levels_up">june</p>
-              <p class="levels_up">middle</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <section class="experience">
+
+      <section class="experience" id="to_3">
         <div class="experience__title">
           <h2 class="underline">Work experience</h2>
         </div>
         <div class="experience__text text">
-        My work experience is two years, starting with self-study from level zero. During this time, I have mastered
+        My work experience is two years. I have mastered
         HTML and CSS in a volume sufficient for the layout of sites of medium complexity, as well as JS for adding
         functionality and solving simple tasks related to working with the DOM tree, servicing online stores, and
         animation.
@@ -164,59 +155,78 @@
       </section>
       <section class="code_example">
         <h2 class="underline">Code example</h2>
-        <h3 class="example">From "Pizza" project</h3>
+        <h3 class="example">From "JS Clock" project</h3>
         <div class="my_code">
-          <pre>      
-          document.addEventListener('DOMContentLoaded', 
-          function () {
+          <pre><code class="language-js">      
+            //Переменные для кольцевой диаграммы//
+            let charts = document.querySelector('.charts');
+            let sW = 90,
+              mW = 84,
+              hW = 75; //длины угловых секторов сек, мин, час
             
-            //Показ меню
-            const sendv = document.querySelector('.sendvich');
-            const nav_ = document.querySelector('.header__nav');
-            sendv.onclick = function () {
-               nav_.classList.toggle('header__none');
-               nav_.classList.toggle('header__nav_media');
-            };
-            //Скрытие меню при нажатии
-            const items = document.querySelectorAll('.header__item');
-            const menuBtn = document.querySelector('.menu-btn');
-            for (let item of items) {
-               item.onclick = function () {
-                  nav_.classList.toggle('header__none');
-                  nav_.classList.toggle('header__nav_media');
-                  menuBtn.checked = false;
-               };
-            }
-            //Работа с карточками пиццы
-            function pizzaNew(name, nameRus, size, price) {
-               this.name = name;
-               this.nameRus = nameRus;
-               this.size = size;
-               this.price = price;
-            }
-          </pre>
+            let secondWidth = sW * Math.tan(Math.PI / 60); //шаг секунды
+            let minWidth = mW * Math.tan(Math.PI / 60) * 1.03; //шаг минуты
+            let hourWidth = hW * Math.tan(Math.PI / 60); //шаг часа
+            let divSec = []; //массив угловых секторов секунд
+            let divMin = []; //массив угловых секторов минут
+            let divHour = []; //массив угловых секторов часов
+            
+            //Построение кольцевой диаграммы//
+            /*сек*/
+            for (let i = 0; i &lt; 60; i++) {
+              divSec[i] = document.createElement('div');
+              divSec[i].classList.add('chart__second');
+              divSec[i].style.borderWidth = `${sW}px ${secondWidth}px 0 ${secondWidth}px`;
+              divSec[i].style.transform = `rotate(${i*6}deg)`;
+              divSec[i].style.transformOrigin = `${secondWidth}px ${sW}px`;
+              divSec[i].style.left = `calc(50% - ${secondWidth}px)`;
+              charts.appendChild(divSec[i]);
+            }            
+          </code></pre>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="to_4">
         <h2 class="underline">My projects</h2>
         <ul class="myprojects">
-          <li><span class="project_name">Pizza.</span> Description is <a 
-            href="https://github.com/DmitryKr2021/Pizza" target="_blank">here</a>. Direct link is <a 
-            href="https://dmitrykr2021.github.io/Pizza/index.html" target="_blank" >here</a></li>
-          <li><span class="project_name">Property.</span> Description is <a 
-            href="https://github.com/DmitryKr2021/Property" target="_blank">here</a>. Direct link is <a 
-            href="https://dmitrykr2021.github.io/Property/index.html" target="_blank">here</a></li>
-          <li><span class="project_name">JS-clock. </span>Description is <a 
-            href="https://github.com/DmitryKr2021/JS-Clock/tree/main" target="_blank">here</a>. Direct link is <a 
-            href="https://dmitrykr2021.github.io/JS-Clock/index.html" target="_blank">here</a></li>
-          <li><span class="project_name">Castom-video-player.</span> Description is <a 
-            href="https://github.com/DmitryKr2021/Castom-video-player/tree/main" target="_blank">here</a>. Direct link is <a 
-            href="https://dmitrykr2021.github.io/Castom-video-player/index.html" target="_blank">here</a></li>
-          <li><a class='volga'
-            href="http://otdih-na-volge.ru" target="_blank" >Otdih na Volge</a> - I created it entirely from zero.</li>
+          <li class="pizza"><a 
+            href="https://dmitrykr2021.github.io/Pizza/index.html" target="_blank" >
+            <figure>
+              <img src="img/screenPizza.JPG" alt="Pizza" width="300">
+              <figcaption>HTML, CSS, JS</figcaption>
+            </figure>
+          </a></li>
+          <li class="property"><a 
+            href="https://dmitrykr2021.github.io/Property/index.html" target="_blank">
+            <figure>
+              <img src="img/screenProperty.JPG" alt="Property" width="300">
+              <figcaption>HTML, CSS, JS</figcaption>
+            </figure>
+          </a></li>
+          <li class="jsclock"><a 
+            href="https://dmitrykr2021.github.io/JS-Clock/index.html" target="_blank">
+            <figure>
+              <img src="img/screenJSClock.JPG" alt="JS Clock" width="300">
+              <figcaption>HTML, CSS, JS</figcaption>
+            </figure>
+          </a></li>
+          <li class="vplayer"><a 
+            href="https://dmitrykr2021.github.io/Castom-video-player/index.html" target="_blank">
+            <figure>
+              <img src="img/screenVplayer.JPG" alt="VideoPlayet" width="300">
+              <figcaption>HTML, CSS, JS</figcaption>
+            </figure>
+          </a></li>
+          <li class="volga"><a 
+            href="http://otdih-na-volge.ru" target="_blank">
+            <figure>
+              <img src="img/screenVolga.JPG" alt="Volga" width="300">
+              <figcaption>HTML, CSS, JS</figcaption>
+            </figure>
+            </a></li>
         </ul>
       </section>
-      <section class="education">
+      <section class="education" id="to_5">
+        <div class="education__wrap">
         <div class="education__title">
           <h2 class="underline">Education</h2>
         </div>
@@ -225,20 +235,14 @@
         <h3>Education in frontend.</h3>
         <ul class="my_education">
           <li>HTML, CSS and JS courses from <a class="courses" href="https://srs.myrusakov.ru" target="_blank" >Mikhail
-            Rusakov</a>.</li>
-          <li>Self-education, searching for information from various sources, analyzing master classes, copying other people’s sites, etc.</li>
+            Rusakov</a></li>
+          <li>Self-education</li>
           <li>RSschool 2021Q3 «JavaScript/Front-end. Stage#0»</li>
         </ul>
+      </div>
       </section>
-      <section class="english">
-        <div class="english__title">
-          <h2 class="underline">My English</h2>
-        </div>
-        <div class="english__text text">
-        English Intermediate
-        </div>
-      </section>
-    </div>
+     
+    <!--/div-->
     </article>
   </main>
   <!--/container-->
@@ -293,6 +297,8 @@
   </div>
   <!--/footer__wrap-->
   </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
   <script src="js/main.js"></script>
 </body>
 
